@@ -1,23 +1,24 @@
+
 # Zusammenfassung für die Prüfung: IT-Betrieb und -Monitoring mit Bash Scripting (BMBS.TA1A)
 
-Das Fach "IT-Betrieb und -Monitoring mit Bash Scripting (BMBS.TA1A)" vermittelt grundlegende Kenntnisse der Shell-Programmierung zur **Automatisierung von Aufgaben im IT-Betrieb und -Monitoring**. Dies ist eine wesentliche Aufgabe im Arbeitsfeld und wird durch Ansätze wie «Infrastructure as Code» in Zukunft immer wichtiger. Der Kurs konzentriert sich auf die Nutzung der Scriptmöglichkeiten der Bash, kombiniert mit typischen Linux-Kommandos zur Systemverwaltung. Das Ziel ist es, von der Anforderung zum Entwurf und vom Entwurf zum getesteten Programm zu gelangen.
+Das Fach "IT-Betrieb und -Monitoring mit Bash Scripting (BMBS.TA1A)" vermittelt grundlegende Kenntnisse der Shell-Programmierung zur **Automatisierung von Aufgaben im IT-Betrieb und -Monitoring**. Dies ist eine wesentliche Aufgabe im Arbeitsfeld und wird durch Ansätze wie «Infrastructure as Code» in Zukunft immer wichtiger werden. Der Kurs konzentriert sich auf die Nutzung der Scriptmöglichkeiten der Bash, kombiniert mit typischen Linux-Kommandos zur Systemverwaltung. Das Ziel ist es, von der Anforderung zum Entwurf und vom Entwurf zum getesteten Programm zu gelangen. Die Absolventinnen und Absolventen sollen die grundlegenden Konzepte der Shell-Programmierung verstehen und anwenden können, Algorithmen entwerfen, Datenstrukturen auswählen und in Programme implementieren. Zudem sollen sie fortgeschrittene Linux-Kommandos zur Systemverwaltung beherrschen und komplexe Aufgaben in Teilschritte zerlegen können. Dabei lernen sie auch, Fehler systematisch zu suchen und zu beheben sowie ihre Arbeit unter Versionskontrolle zu halten und angemessen zu dokumentieren.
 
-Das Fach setzt Kenntnisse aus "IT-System-Grundlagen (ITGL)" voraus und wird auf dem **Kompetenzniveau 3 ("Advanced", professionelles Handeln)** unterrichtet, wobei die Absolventen in der Lage sein sollen, komplexe Aufgaben in einem unvorhersehbaren Arbeitskontext autonom zu bearbeiten.
+Das Fach setzt Kenntnisse aus "IT-System-Grundlagen (ITGL)" voraus und wird auf dem **Kompetenzniveau 3 ("Advanced", professionelles Handeln)** unterrichtet. Dies bedeutet, dass die Absolventen in der Lage sein sollen, neue komplexe Aufgaben und Problemstellungen in einem nicht vorhersehbaren Arbeitskontext zu bearbeiten und die operative Verantwortung zu übernehmen. Sie sollen autonom planen, handeln und evaluieren können.
 
 ## 1. Kursstruktur und Ablauf
 
-Der Kurs ist in **acht Blöcke** gegliedert, die jeweils Präsenzunterricht (40 Lektionen) und Selbststudium (50 Lektionen für Selfstudy und Transfer) umfassen. Die Blöcke decken folgende Hauptthemen ab:
+Der Kurs ist in **acht Blöcke** gegliedert, die jeweils 40 Lektionen Präsenzunterricht und 50 Lektionen Selbststudium (Selfstudy und Transfer) umfassen. Insgesamt sind 90 Lektionen vorgesehen. Die Blöcke decken folgende Hauptthemen ab:
 
-*   **Block 1: Grundlagen "Handwerkszeug"** – Prozesse, Variablen, Parameter, Shell-I/O.
-*   **Block 2: Kontrollstrukturen 1, Algorithmen, Versionierung** – if-Anweisung, `test`, Berechnungen.
-*   **Block 3: Kontrollstrukturen 2, Algorithmen, Test, Debugging** – Schleifen (`while`, `for`, `until`), `read`, `printf`.
-*   **Block 4: Kontrollstrukturen 4, Datenstrukturen, Funktionen** – `case`, `getopts`, `select`, Funktionen.
-*   **Block 5: Modularisierung, Test-Automatisierung** – Arrays (indiziert, assoziativ), Fallstudie.
-*   **Block 6: Fallstudie Anwendung (Gruppenarbeit)** – Grundlagen des Testens, Testautomatisierung.
-*   **Block 7: Fortgeschrittene Techniken** – Prozesse, Pipes, Signale, dynamische Anweisungen (`eval`).
-*   **Block 8: Fallstudie Anwendung (Gruppenarbeit)** – Prüfungsvorbereitung, fortgeschrittene Themen.
+*   **Block 1: Grundlagen "Handwerkszeug"** – Prozesse, Variablen, Parameter, Shell-I/O. Lernziele für Block 1 umfassen das Schreiben einfacher Scripts, deren Ausführung und das Verständnis der Abläufe, das Definieren und Verwenden von Variablen in Kommandos sowie das Anwenden von Positionsparametern.
+*   **Block 2: Kontrollstrukturen 1, Algorithmen, Versionierung** – if-Anweisung, `test`, Berechnungen. Lernziele für Block 2 umfassen die Anwendung weiterer I/O-Umlenkungstechniken, das Beschreiben von Kontrollstrukturen (Sequenz, Selektion, Iteration), das Entwerfen von Algorithmen mit Selektion, das Auswerten von Exit-Codes, den Einsatz von `if...then...else`, die Nutzung von `test` und `[ ]` sowie deren Optionen, die Verknüpfung logischer Bedingungen und das Anlegen eines eigenen Git-Repositories.
+*   **Block 3: Kontrollstrukturen 2, Algorithmen, Test, Debugging** – Schleifen (`while`, `for`, `until`), `read`, `printf`. Lernziele für Block 3 umfassen den Einsatz von `while`- und `for`-Schleifen, die Beeinflussung von Iterationen mit `break` und `continue`, die interaktive Anwendung von `read` auf Dateien und Kommandoausgaben sowie die Identifizierung geeigneter Kommandos für Systemadministrationsaufgaben.
+*   **Block 4: Kontrollstrukturen 4, Datenstrukturen, Funktionen** – `case`, `getopts`, `select`, Funktionen. Lernziele für Block 4 umfassen den Einsatz von `case` für Mehrfachauswahl, `getopts` für Skript-Optionen, `select` für Menüs sowie das Definieren und Erstellen von Funktionsbibliotheken und einfachen Arrays.
+*   **Block 5: Modularisierung, Test-Automatisierung** – Arrays (indiziert, assoziativ), Fallstudie. Lernziele für Block 5 umfassen das Erzeugen und Verwenden von einfachen und assoziativen Arrays, das Einsetzen weiterer geeigneter Kommandos für Systemadministrationsaufgaben sowie das Entwerfen und Programmieren weiterer Skripte zur Systemadministration.
+*   **Block 6: Fallstudie Anwendung (Gruppenarbeit)** – Grundlagen des Testens, Testautomatisierung. Lernziele für Block 6 umfassen das Erklären von Grundkonzepten des Testens, das Planen von Tests für Skripte und Funktionen, das Programmieren und Ausführen automatisierter Unit-Tests, das Verbinden von automatischem Testen und Versionskontrolle mit Git sowie das Entwerfen und Programmieren weiterer Skripte zur Systemadministration.
+*   **Block 7: Fortgeschrittene Techniken** – Prozesse, Pipes, Signale, dynamische Anweisungen (`eval`). Lernziele für Block 7 umfassen das Erläutern des Linux-Prozesskonzepts mit `fork()`, `exec()` und `wait()`, das Verwenden von `&` und `exec` zum Starten mehrerer Skripte, das Anwenden von Jobkontrolle-Kommandos, das Senden und Behandeln von Signalen, die Verwendung von Named Pipes sowie den Einsatz dynamischer Anweisungen und Variablen mit `eval`.
+*   **Block 8: Fallstudie Anwendung (Gruppenarbeit)** – Prüfungsvorbereitung, fortgeschrittene Themen. Lernziele für Block 8 umfassen das Programmieren weiterer Skripte und Funktionen, das Aufteilen und Lösen umfangreicherer Programmieraufgaben sowie das Verstehen des Ablaufs der Modulprüfung und das Lösen von Beispielaufgaben.
 
-Als **Lehrmittel** wird "Shell-Programmierung Das umfassende Handbuch von Stefan Kania, Jürgen Wolf" (6. Auflage 2019, Rheinwerk Verlag) empfohlen. Aufgaben und Lösungsvorschläge sind auf einem **GitHub-Repository** verfügbar. Ein eigenes Notebook mit VMs ist als Hilfsmittel notwendig.
+Als **Lehrmittel** wird "Shell-Programmierung Das umfassende Handbuch von Stefan Kania, Jürgen Wolf" (6. Auflage 2019, Rheinwerk Verlag) empfohlen. Für die Ausgabe 2022 ist die ISBN 978-3-8362-8923-8 angegeben. Aufgaben und Lösungsvorschläge sind auf einem **GitHub-Repository** (`https://github.com/courses2024/bash_scripting`) verfügbar. Ein eigenes Notebook mit VMs (lokal – IFA-LABs) ist als notwendiges Hilfsmittel erforderlich.
 
 ## 2. Modulprüfung
 
@@ -35,7 +36,7 @@ Die Prüfung umfasst Kompetenzen aus den Fächern ITGL (IT-System-Grundlagen) un
 
 *   Ein Script beginnt oft mit einem speziellen Kommentar, dem **Shebang** (`#!/bin/bash`), der angibt, welcher Interpreter für die Ausführung verwendet werden soll. Hier könnte auch etwas anderes stehen, z.B. `#!/bin/sh` oder `#!/usr/bin/python3`.
 *   **Vier Arten der Ausführung**:
-    1.  `bash scriptname.sh`: Eine neue `/bin/bash` wird gestartet.
+    1.  `bash scriptname.sh`: Eine neue `/bin/bash` wird gestartet und führt die Kommandos aus.
     2.  `chmod +x scriptname.sh` und dann `./scriptname.sh`: Das Script wird direkt ausgeführt, ebenfalls in einer neuen `/bin/bash`.
     3.  `source scriptname.sh`: Die bestehende Shell liest die Kommandos und führt sie aus. Variablen, die im Script gesetzt werden, bleiben in der aufrufenden Shell gültig.
     4.  `. scriptname.sh`: Ist äquivalent zu `source`.
@@ -68,7 +69,7 @@ Die Prüfung umfasst Kompetenzen aus den Fächern ITGL (IT-System-Grundlagen) un
 *   **Standard-I/O-Kanäle**: `stdin` (0), `stdout` (1), `stderr` (2).
 *   **Umlenkung von stdout**: `Kommando > datei.log` (überschreibt), `Kommando >> datei.log` (hängt an).
 *   **Umlenkung von stderr**: `Kommando 2> fehler.log`, `Kommando 2>> fehler.log`.
-*   **Merge von stdout und stderr**: `Kommando > all.log 2>&1`.
+*   **Merge von stdout und stderr**: `Kommando 1> all.log 2>&1`.
 *   **Alle Ausgaben unterdrücken**: `Kommando > /dev/null 2>&1`.
 *   **Eingabe umleiten**: `Kommando < input.txt`.
 *   **Pipelines**: `Kommando1 | Kommando2` leitet stdout von Kommando1 zu stdin von Kommando2. Jedes Programm in einer Pipeline läuft in einer Subshell.
@@ -87,7 +88,7 @@ Die Prüfung umfasst Kompetenzen aus den Fächern ITGL (IT-System-Grundlagen) un
     *   **`case`**: Für Mehrfach-Fallunterscheidungen basierend auf Mustern (`case $variable in Muster1) Aktionen ;; Muster2) Aktionen ;; *) Default ;; esac`).
 *   **Iteration (Schleifen)**:
     *   **`while`**: Führt Anweisungen aus, solange eine Bedingung WAHR ist (Exit-Code 0). In der Schleife muss das Kriterium der Bedingung geändert werden, sonst läuft die Schleife endlos.
-    *   **`for` (1. Form)**: Iteriert über eine Liste von Werten (`for var in list; do ... done`). Nützlich für Script-Parameter (`$*`, `$@`) oder Kommandoausgaben (`$(ls)`).
+    *   **`for` (1. Form)**: Iteriert über eine Liste von Werten (`for var in list; do ... done`). Nützlich für Script-Parameter (`$*`, `$@`) oder Kommandoausgaben.
     *   **`for` (2. Form, C-ähnlich)**: Zählergesteuerte Schleife (`for ((init; condition; increment)); do ... done`).
     *   **`until`**: Führt Anweisungen aus, bis eine Bedingung WAHR ist (Exit-Code 0). Kann immer durch eine `while`-Schleife ersetzt werden.
     *   **Steuerung der Schleifen**:
@@ -117,12 +118,12 @@ Die Prüfung umfasst Kompetenzen aus den Fächern ITGL (IT-System-Grundlagen) un
 ### Funktionen
 
 *   **Definition**: `name() { Anweisungen }` oder `function name { Anweisungen }`.
-*   **Aufruf**: Einfach den Namen der Funktion verwenden, Argumente werden wie Positionsparameter (`$1`, `$2`, `$@`) behandelt.
+*   **Aufruf**: Einfach den Namen der Funktion verwenden, Argumente werden wie Positionsparameter behandelt (`$1`, `$2`, `$@`).
 *   **Rückgabewerte**:
     *   Mit `return <Ganzzahl>` (0-255, in `$?` verfügbar) für Statusmeldungen.
     *   Für andere Werte `echo` verwenden und im aufrufenden Programm per Kommando-Substitution abfangen.
     *   `exit` in einer Funktion beendet das gesamte Skript.
-*   **Scope**: Variablen sind global, es sei denn, sie werden mit `local` innerhalb der Funktion deklariert. Eine lokale und eine globale Variable können den gleichen Namen haben, wobei in der Funktion die lokale Variable Vorrang hat.
+*   **Scope**: Variablen sind global, es sei denn, sie werden mit `local` innerhalb der Funktion deklariert . Eine lokale und eine globale Variable können den gleichen Namen haben, wobei in der Funktion die lokale Variable Vorrang hat .
 *   **Funktionsbibliotheken**: Funktionen können in separaten Dateien gespeichert und mit `source` oder `.` in Scripte eingebunden werden.
 *   **Vorrang**: Alias > Funktion > Builtin > Externes Kommando.
 *   **Beispiel Log- und Fehlerfunktionen**:
@@ -185,11 +186,7 @@ Die Prüfung umfasst Kompetenzen aus den Fächern ITGL (IT-System-Grundlagen) un
     *   **Destruktiver Test ("Monkey Test")**: Willkürliche Versuche, das Skript zum Absturz zu bringen.
 *   **Testumgebung**: Muss reproduzierbar sein (z.B. VM-Snapshots). Verwendung von "Stubs" oder "Mocks" für nicht fertige oder externe Komponenten.
 *   **Testdaten**: Auswahl von Repräsentanten aus **Äquivalenzklassen**. Beispiel für Zahlenbereich 1-100: Werte im Bereich (1, 50, 100), unterhalb (0, -1), oberhalb (101), keine Zahl ("ABC").
-*   **Testscript-Struktur**:
-    *   `setup`: Vorbereitung des Testfalls.
-    *   Ausführung des Tests.
-    *   `report`: Ausgabe der Testergebnisse (Output, Return-Code, Dateizustand).
-    *   `teardown`: Aufräumen nach dem Test.
+*   **Testscript-Struktur**: Ein Testscript enthält für jeden Testfall eine Operation `setup` (Vorbereitung), die Ausführung des Tests, eine Operation `report` (Ausgabe der Testergebnisse) und eine Operation `teardown` (Aufräumen nach dem Test).
 
 ### Textverarbeitungstools (Anhänge)
 
