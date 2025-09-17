@@ -1,7 +1,5 @@
 # Zusammenfassung für die Prüfung: IT Qualitätsmanagement und DevOps
 
----
-
 ### **I. DevOps: Grundlagen und Motivation**
 
 DevOps ist ein **neuer Ansatz** zur schnellen und effizienten Bereitstellung von IT-Lösungen. Die Motivation dafür liegt in der **volatilen Geschäftswelt**, die schnelle Ideen erfordert, und dem **signifikanten Kostendruck in der IT**. Die Anwendung von DevOps kann zu einer **Kostenreduktion von 10-20%** und einer **massiven Verkürzung der Zeit bis zum Einsatz des Systems** führen.
