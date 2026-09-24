@@ -1,8 +1,4 @@
-# EXTREM AUSFÜHRLICHER PRÜFUNGSSPICKER: BACKUP & RESTORE
-**Fach:** Backup and Restore | **Konzept & Quellen:** Mevluet Polat (ABRL)
-**Zweck:** Kompaktes, hochstrukturiertes Nachschlagewerk für Prüfungen (mit Tabellen, Formeln, Notfall-Diagrammen und Fallbeispielen)
-
----
+# PRÜFUNGSSPICKER: BACKUP & RESTORE
 
 ## KAPITEL 1: RISIKOMANAGEMENT & RISIKOANALYSE
 
